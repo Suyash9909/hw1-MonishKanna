@@ -67,7 +67,7 @@ def list_1D():
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l = [l[i] for i in range(len(l)) if i>2 and i<11]
+    new_l = [l[i] for i in range(len(l)) if i>2 and i<10]
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
