@@ -103,14 +103,14 @@ def dictionary():
     #   "fruit" => "apple"
     #   "quantity" => 18
     #   "color" => "red"
-    fruit_dict = {"fruit": "apple", "quantity":"18", "color":"red"}
+    fruit_dict = {"fruit": "apple", "quantity":18, "color":"red"}
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
 
     f =fruit_dict["fruit"]
 
     # Increase the value that key "quantity" map to by 1.
-    fruit_dict["quantity"]+=1
+    fruit_dict["quantity"]+= 1
 
     return fruit_dict, f
 def dictionary_nested():
